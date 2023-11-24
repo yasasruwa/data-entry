@@ -11,7 +11,7 @@ def to_excel(df):
     return processed_data
 
 def main():
-    st.title('Data Entry Application')
+    st.title('Data Entry to Excel')
 
     # Session state initialization with additional edit_record initialization
     if 'df' not in st.session_state:
